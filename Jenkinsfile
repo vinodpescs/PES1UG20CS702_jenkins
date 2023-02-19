@@ -12,7 +12,7 @@ pipeline {
             steps {
                 sh './hello'
             }
-        }
+        
 
         stage('Deploy') {
             steps {
